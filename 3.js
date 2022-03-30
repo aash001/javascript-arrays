@@ -16,12 +16,9 @@ function getSpanishAlphabet(){
   alphaNumericAlphabet.splice(3,0,'ch');
   alphaNumericAlphabet.splice(15,0,'ñ');
   alphaNumericAlphabet.splice(13,0,'ll');
-  
-  let spanishAlphabet = alphaNumericAlphabet
-  
   // Your code here
 
-  return spanishAlphabet
+  return alphaNumericAlphabet;
 }
 console.log(getSpanishAlphabet());
 
